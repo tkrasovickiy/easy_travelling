@@ -1,4 +1,14 @@
 EasyTravelling::Application.routes.draw do
+  root :to => 'main#index'
+  
+  match "/index" => "main#index"
+
+  match "/hello" => "main#hello"
+
+  match "/travels" => "main#travels"
+
+  match "/friends" => "main#friends"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

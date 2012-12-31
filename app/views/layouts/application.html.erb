@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>EasyTravelling</title>
+  <title>EasyTravelling <%= @title %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<%= link_to "Hello", :controller => 'main', :action => 'hello' %>
+<%= link_to "Home", :controller => 'main', :action => 'index' %>
+<%= link_to "Travels", :controller => 'main', :action => 'travels' %>
+<%= link_to "Friends", :controller => 'main', :action => 'friends' %>
 
 <%= yield %>
 
