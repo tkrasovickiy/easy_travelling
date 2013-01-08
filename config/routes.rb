@@ -5,7 +5,7 @@ EasyTravelling::Application.routes.draw do
 
   match "/hello" => "main#hello"
 
-  match "/travels" => "main#travels"
+  match "/travel" => "main#travel"
 
   match "/friends" => "main#friends"
 

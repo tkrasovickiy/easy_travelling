@@ -7,7 +7,7 @@ class MainController < ApplicationController
     @title = "| Hello"
   end
 
-  def travels
+  def travel
     @title = "| Travels"
   end
 
