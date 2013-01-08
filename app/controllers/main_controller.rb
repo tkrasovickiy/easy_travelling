@@ -8,7 +8,7 @@ class MainController < ApplicationController
   end
 
   def travel
-    @title = "| Travels"
+    @title = "| Travel"
   end
 
   def friends
